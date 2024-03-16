@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+body{
+    background-color: rgb(28, 28, 49);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*----navbar başlangıcı---*/
+}
+.nav{
+    background-color: rgb(71, 71, 88);
+    width: 85%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    align-items: center;
+    padding: 10px;
+}
+.navright input{
+    border-radius: 80px; 
+    width: 250px;
+    padding: 10px;
+   
+
+}
+.navright i {
+    border: 2px solid black;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    color: black;
+    cursor: grab;
+  
+}
+/*---navbar bitişi---*/
+/*---- menü başlangıcı----*/
+.menu{
+    width: 85%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+ 
+}
+.menu ul li{
+       list-style: none;
+    }
+.menu ul li a {
+    
+    color: white;
+
+}
+.menu ul li a:hover{
+    color: rgb(56, 109, 158);
+}
+/*---menü bitişi---/*
+
+/*---main başlangıcı---*/
+.conteinermain{
+    margin-left: 50px;
+    row-gap: 10px;
+    
+}
+.images{
+    display: flex;
+    padding: 15px;
+    opacity: 1;
+  
+}
+.images :hover{
+    opacity: 0.50;
+    width: 170px;
+    height: 170px;
+}
+.firstimage a img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin-right: 15px;
+   
+}
+
+
+
+.title{
+    width: 150px;
+    font-size: 10px;
+    font-weight: bold;
+}
+#icon{
+   font-size: 40px;
+   bottom: 220px;
+   left: 115px;
+   position: absolute;
+   opacity: 0.50;
+}
+.secondimage a img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin-right: 15px;
+}
+
+.title{
+    width: 150px;
+    font-size: 10px;
+    font-weight: bold;
+}
+#icon2{
+    font-size: 40px;
+    bottom: 220px;
+    left: 280px;
+    position: absolute;
+    opacity: 0.50;
+}
+.thirdimage a img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin-right: 15px;
+}
+
+.title{
+    width: 150px;
+    font-size: 10px;
+    font-weight: bold;
+}
+#icon3{
+    font-size: 40px;
+    bottom: 220px;
+    left: 455px;
+    position: absolute;
+    opacity: 0.50;
+}
+.fourimage a img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin-right: 15px;
+}
+
+   
+
+.title{
+    width: 150px;
+    font-size: 10px;
+    font-weight: bold;
+}
+#icon4{
+   font-size: 40px;
+   bottom: 220px;
+   left: 620px;
+   position: absolute;
+   opacity: 0.50;
+}
+.fiveimage a img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin-right: 15px;
+}
+
+   
+
+.title{
+    width: 150px;
+    font-size: 10px;
+    font-weight: bold;
+}
+#icon5{
+   font-size: 40px;
+   bottom: 220px;
+   left: 785px;
+   position: absolute;
+   opacity: 0.50;
+}
+/*---2.satır---*/
+.conteinermain2{
+    margin-left: 50px;
+    row-gap: 10px;
+    
+}
+.images2{
+    display: flex;
+    padding: 15px;
+    opacity: 1;
+  
+}
+.images2 :hover{
+    opacity: 0.50;
+    width: 170px;
+    height: 170px;
+}
+.firstimage2 a img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin-right: 15px;
+   
+}
+
+
+
+.title{
+    width: 150px;
+    font-size: 10px;
+    font-weight: bold;
+}
+#icon2{
+   font-size: 40px;
+   bottom: 20px;
+   left: 115px;
+   position: absolute;
+   opacity: 0.50;
+}
+.secondimage2 a img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin-right: 15px;
+}
+
+.title{
+    width: 150px;
+    font-size: 10px;
+    font-weight: bold;
+}
+#icon22{
+    font-size: 40px;
+    bottom: 20px;
+    left: 280px;
+    position: absolute;
+    opacity: 0.50;
+}
+.thirdimage2 a img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin-right: 15px;
+}
+
+.title{
+    width: 150px;
+    font-size: 10px;
+    font-weight: bold;
+}
+#icon32{
+    font-size: 40px;
+    bottom: 20px;
+    left: 455px;
+    position: absolute;
+    opacity: 0.50;
+}
+.fourimage2 a img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin-right: 15px;
+}
+
+   
+
+.title{
+    width: 150px;
+    font-size: 10px;
+    font-weight: bold;
+}
+#icon42{
+   font-size: 40px;
+   bottom: 20px;
+   left: 620px;
+   position: absolute;
+   opacity: 0.50;
+}
+.fiveimage2 a img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin-right: 15px;
+}
+
+   
+
+.title{
+    width: 150px;
+    font-size: 10px;
+    font-weight: bold;
+}
+#icon52{
+   font-size: 40px;
+   bottom: 20px;
+   left: 785px;
+   position: absolute;
+   opacity: 0.50;
+}
+/*---main bitişi ---*/
+/*footer başlangıcı---*/
+.katagori{
+    width: 85%;
+    height: 100px;
+    margin-left: 50px;
+   
+}
+.katagori ul{
+    background-color: rgb(71, 71, 88);
+    color: white;
+    list-style: none;
+}
+.katagori ul :hover{
+    background-color:rgb(28, 28, 49) ;
+}
+.katagori ul li a{
+    color: white;
+    text-transform:uppercase ;
+}
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 15px;
+    margin-top: 15px;
+    padding: 20px;
+    text-align: center;
+}
+.footer p{
+    color: white;
+    font-size: 10px;
+}
+.footer p a{
+    color: rgb(40, 230, 40);
+}
